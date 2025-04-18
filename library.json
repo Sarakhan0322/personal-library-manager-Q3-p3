@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Python Crash Course",
+      "author": "Eric Mathes",
+      "publication_year": 2019,
+      "genre": "Programming",
+      "read_status": false,
+      "added_date": "2025-03-11 11:30:40"
+    },
+    {
+      "title": "Automate the Boring Stuff with Python",
+      "author": "Fiza Sagar",
+      "publication_year": 2011,
+      "genre": "Programming",
+      "read_status": true,
+      "added_date": "2025-03-11 11:35:40"
+    },
+    {
+      "title": "Fluent Python",
+      "author": "Ronaldo",
+      "publication_year": 2022,
+      "genre": "Programming",
+      "read_status": false,
+      "added_date": "2025-03-11 11:45:40"
+    },
+    {
+      "title": "Effective Python",
+      "author": "Brett Slatkin",
+      "publication_year": 2020,
+      "genre": "Programming",
+      "read_status": true,
+      "added_date": "2025-03-11 11:55:40"
+    }
+  ]

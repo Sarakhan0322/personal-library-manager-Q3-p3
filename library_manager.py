@@ -4,10 +4,10 @@ import json
 import os
 import datetime
 import time
-import requests
-import plotly.express as px  # This import is correct
+import plotly.express as px
 import plotly.graph_objects as go
 from streamlit_lottie import st_lottie
+import requests
 
 # Page configuration
 st.set_page_config(
@@ -197,10 +197,11 @@ st.title("📚 Personal Library Manager")
 
 # Sidebar
 st.sidebar.header("📖 Navigation")
-lottie_url = "https://assets.lottielibrary.com/l/books.json"
+lottie_url = "https://assets.lottiefiles.com/packages/lf20_myejiggj.json"  # you can replace with any Lottie JSON URL
 animation = load_lottieur(lottie_url)
 if animation:
-    st.sidebar.lottie(animation, height=150)
+    with st.sidebar:
+        st_lottie(animation, height=150, key="lottie-books")
 
 choice = st.sidebar.radio("Select view", ["View Library", "Add Book", "Search Books", "Library Statistics"])
 
